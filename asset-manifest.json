@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/instagram-clone-reactjs/static/css/main.c405554b.css",
+    "main.js": "/instagram-clone-reactjs/static/js/main.ddc302d9.js",
+    "static/media/status4.png": "/instagram-clone-reactjs/static/media/status4.63729b3a3ebf626cda22.png",
+    "static/media/perfil1.png": "/instagram-clone-reactjs/static/media/perfil1.f901e2cbc99b27004d25.png",
+    "static/media/post3.jpg": "/instagram-clone-reactjs/static/media/post3.5cff57bfa9e43f03e530.jpg",
+    "static/media/perfil4.png": "/instagram-clone-reactjs/static/media/perfil4.a5455d827d02cb97d0ad.png",
+    "static/media/post1.jpg": "/instagram-clone-reactjs/static/media/post1.3a5e8cc126d1997ecad5.jpg",
+    "static/media/pic1.png": "/instagram-clone-reactjs/static/media/pic1.ad9cc44f0aad81770440.png",
+    "static/media/status1.png": "/instagram-clone-reactjs/static/media/status1.5f871ce15c25becac7e9.png",
+    "static/media/status6.png": "/instagram-clone-reactjs/static/media/status6.856bc53c577cf27d3da5.png",
+    "static/media/perfil2.png": "/instagram-clone-reactjs/static/media/perfil2.7895b9bbd89e0f78d226.png",
+    "static/media/status7.png": "/instagram-clone-reactjs/static/media/status7.5507736fe24993c4d391.png",
+    "static/media/perfil3.png": "/instagram-clone-reactjs/static/media/perfil3.05c6300c0bd1df69dfe3.png",
+    "static/media/status2.png": "/instagram-clone-reactjs/static/media/status2.39d426db09d9a144e67d.png",
+    "static/media/status3.png": "/instagram-clone-reactjs/static/media/status3.2d25d75c1ee199ea880e.png",
+    "static/media/post5.jpg": "/instagram-clone-reactjs/static/media/post5.39a15c3af38a7f52a20c.jpg",
+    "static/media/status5.png": "/instagram-clone-reactjs/static/media/status5.a6b00ff5fab1aa4c764e.png",
+    "static/media/post4.jpg": "/instagram-clone-reactjs/static/media/post4.29665a217e3c31422d7d.jpg",
+    "static/media/post2.jpg": "/instagram-clone-reactjs/static/media/post2.4609911ff9f1ffe714e2.jpg",
+    "static/media/instagram.png": "/instagram-clone-reactjs/static/media/instagram.d9be23ddc0b41cf1744f.png",
+    "static/media/none-user.png": "/instagram-clone-reactjs/static/media/none-user.a740d73a60d5b17efdf9.png",
+    "index.html": "/instagram-clone-reactjs/index.html",
+    "main.c405554b.css.map": "/instagram-clone-reactjs/static/css/main.c405554b.css.map",
+    "main.ddc302d9.js.map": "/instagram-clone-reactjs/static/js/main.ddc302d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c405554b.css",
+    "static/js/main.ddc302d9.js"
+  ]
+}
