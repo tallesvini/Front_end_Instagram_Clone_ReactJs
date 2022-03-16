@@ -1,0 +1,91 @@
+.container {
+    background-color: #FAFAFA;
+    border: 1px solid #E7E7E7;
+    margin-top: 5vh;
+    width: 535px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    margin: 10px;
+    width: 2em;
+}
+
+.perfil h4 {
+    color: #1A1A1A;
+    margin-left: 5px;
+    font-size: .8em;
+    font-weight: 450;
+}
+
+.perfil p {
+    color: #8C8C8C;
+    font-size: .6em;
+    margin: 3px 0 0 5px;
+}
+
+.public img {
+    width: 533px;
+}
+
+.react a {
+    color: #1A1A1A;
+    margin: 0 8px;
+}
+
+.footer {
+    display: flex;
+    margin: 10px;
+}
+
+.footer p {
+    font-weight: lighter;
+    color: #333333;
+}
+
+.viewComment p {
+    color: #8C8C8C;
+    font-size: .9em;
+    margin: 8px 0 0 0;
+}
+
+.footer h5 {
+    color: #1A1A1A;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.comments a {
+    margin-right: 10px;
+    color: #1A1A1A;
+}
+
+.comments input {
+    border: none;
+    outline: none;
+    background-color: #FAFAFA;
+}
+
+.comments input::placeholder {
+    color: #8C8C8C;
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        margin: 8px 0 20px 0;
+    }
+
+    .public img {
+        width: 100%;
+    }
+}

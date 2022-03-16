@@ -1,0 +1,19 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 0 17px 0 0;
+    color: #262626;
+}
+
+@media (max-width: 575px) {
+    .icons button {
+        padding: 0 14%;
+    }
+}

@@ -1,0 +1,33 @@
+.imagem {
+    box-sizing:border-box;
+    cursor: pointer;
+    border: 3px solid #d92d7a;
+    width: 3.5em;
+    margin: 10px 10px 7px 10px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container p {
+    color: #333333;
+    font-size: .7em;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 575px) { 
+    .container img {
+        width: 93%;
+        margin: 5px 10px;
+    }
+
+    .container p {
+        font-size: .5em;
+    }
+}
+

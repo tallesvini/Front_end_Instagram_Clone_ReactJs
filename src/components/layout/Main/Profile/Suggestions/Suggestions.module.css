@@ -1,0 +1,37 @@
+.suggestions {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.suggestions img {
+    width: 2em;
+    border-radius: 50%;
+}
+
+.dados {
+    margin: 0 0 0 10px;
+}
+
+.dados h5 {
+    cursor: pointer;
+    color: #1A1A1A;
+    font-size: .75em;
+    font-weight: 500;
+}
+
+.dados h5:hover {
+    text-decoration: underline 1px #1A1A1A;
+}
+
+.dados p {
+    font-size: .7em;
+    color: #8C8C8C;
+}
+
+.suggestions a {
+    text-decoration: none;
+    color: #0066ff;
+    margin: 0 0 0 100px;
+    font-size: .8em;
+}

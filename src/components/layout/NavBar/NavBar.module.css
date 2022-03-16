@@ -1,0 +1,39 @@
+.container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E7E7E7;
+    width: 100%;
+    top: 0;
+}
+
+.container img {
+    width: 5.2em;
+    margin-left: 10px;
+}
+
+.container input {
+    outline: none;
+    border: none;
+    background-color: #EFEFEF;
+    height: 4vh;
+    margin: 0 10% 0;
+    width: 220px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 17%;
+}
+
+@media (max-width: 725px) {
+    .container input {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        display: none;
+    }
+}

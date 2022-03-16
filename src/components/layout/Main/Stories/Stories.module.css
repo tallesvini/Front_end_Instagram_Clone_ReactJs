@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    border: 1px solid #E7E7E7;
+    width: 535px;
+    margin-top: 10vh;
+}
+
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        margin: 8vh 0 0 0; 
+    }
+    
+}

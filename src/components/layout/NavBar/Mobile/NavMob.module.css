@@ -1,0 +1,40 @@
+@media (min-width: 425px) {
+    .container {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        display: block;
+        position: fixed;
+        background-color: #FAFAFA;
+        width: 100%;
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #E7E7E7;
+    }
+
+    .bottom {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFAFA;
+        border-top: 1px solid #E7E7E7;
+        left: 50%;
+        transform: translate(-50%);
+        top: 96vh;
+        width: 100%;
+    }
+
+    .bottom a {
+        padding-left: 10px;
+        margin-top: 6px;
+    }
+
+}

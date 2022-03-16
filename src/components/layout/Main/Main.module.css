@@ -1,0 +1,13 @@
+.container {
+    margin-left: 23%;
+}
+
+@media (max-width: 1150px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
