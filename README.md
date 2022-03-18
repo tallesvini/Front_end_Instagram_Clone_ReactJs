@@ -1,4 +1,4 @@
-# `Intagram clone in ReactJS!`
+#  `Intagram clone in ReactJS!`
 
 #### ➡️ Hi, this project was made in ReactJS.
 
