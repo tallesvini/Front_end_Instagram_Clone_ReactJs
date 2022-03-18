@@ -32,7 +32,7 @@ function Public(props) {
             </div>
 
 
-            <style>{`.red {color: red}`}</style>
+            <style>{`.red {color: #ff0000}`}</style>
 
             <div className={Styles.react}>
                 <button      
