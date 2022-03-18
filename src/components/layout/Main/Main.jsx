@@ -1,5 +1,5 @@
 import Stories from "./Stories/Stories";
-import Public from "./Public/Public";
+import Public from "./Publi/Public";
 
 import Styles from './Main.module.css'
 import Profile from './Profile/Profile';
@@ -22,11 +22,16 @@ function Main() {
             <div className={Styles.container}>
                 <Stories />
                 <Profile />
-                <Public name="hanna_williams_" perfil={Pic1} art={Post1} loc="Vancouver, Canada" />
-                <Public name="_emmaclark_" perfil={Pic2} art={Post2} />
-                <Public name="christopher_walker_" perfil={Pic4} art={Post3} loc="Los Angeles, California" />
-                <Public name="hanna_williams_" perfil={Pic1} art={Post4} />
-                <Public name="hillary_" perfil={Pic3} art={Post5} loc="Miami Beach, Florida" />
+                
+                <Public name="hanna_williams_" perfil={Pic1} art={Post1} loc="Vancouver, Canada" likes="2.302" minutes="54" />
+
+                <Public name="_emmaclark_" perfil={Pic2} art={Post2} likes="5.382" minutes='3' />
+
+                <Public name="christopher_walker_" perfil={Pic4} art={Post3} loc="Los Angeles, California" likes="302" minutes='12' />
+
+                <Public name="hanna_williams_" perfil={Pic1} art={Post4} likes="7.302" minutes='56' />
+
+                <Public name="hillary_" perfil={Pic3} art={Post5} loc="Miami Beach, Florida" likes="152" minutes='1' />
             </div>
             
         </div>

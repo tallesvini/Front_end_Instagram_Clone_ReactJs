@@ -4,7 +4,7 @@
 
 ### 🚫 This project not is official, only for study and personal project! 
 
-### 🚀 To access <a href="https://translate.google.com.br/?hl=en&tab=TT">Click here!</a>
+### 🚀 To access <a href="https://tallesvini.github.io/instagram-clone-reactjs/">Click here!</a>
 
 ## `⬇️ Your result below ⬇️`
 

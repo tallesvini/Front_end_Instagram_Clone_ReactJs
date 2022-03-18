@@ -6,7 +6,7 @@ function NavBar() {
     return(
         <div className={Styles.container}>
             <Icons2 />
-            <input type="text" placeholder="Search" />
+            <input type="text" placeholder="Search" /> 
             <Icons className={Styles.icones} />
         </div>
     )

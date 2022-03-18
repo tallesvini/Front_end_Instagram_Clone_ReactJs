@@ -12,7 +12,7 @@ import Status7 from '../../../../assets/img/users/status7.png'
 
 function Stories() {
     return(
-        <div className={Styles.container}>     
+        <div className={Styles.container}> 
             <Stories2 profile={Status1} name='melody_87' />
             <Stories2 profile={Status2} name='katie_USA' />
             <Stories2 profile={Status3} name='drake_ov' />

@@ -3,8 +3,16 @@ import Styles from './Public.module.css'
 import { IoHeartOutline, IoChatbubbleOutline, IoPaperPlaneOutline } from 'react-icons/io5'
 import { IoHappyOutline } from 'react-icons/io5'
 import { GoVerified } from 'react-icons/go'
+import { useState } from 'react'
 
 function Public(props) {
+
+    const [color, setColor] = useState();
+
+    function Active() {
+        setColor((color) => (color === 'red' ? 'green' : 'red'))
+    }
+
     return(
         <div className={Styles.container}>
 
@@ -20,17 +28,26 @@ function Public(props) {
             </div>
 
             <div className={Styles.public}>
-                <img src={props.art} alt="" />
+                <img onDoubleClick={Active} src={props.art} alt="" />
             </div>
 
+
+            <style>{`.red {color: red}`}</style>
+
             <div className={Styles.react}>
-                <a href="/"><IoHeartOutline size={23} /></a>
-                <a href="/"><IoChatbubbleOutline size={23} /></a>
-                <a href="/"><IoPaperPlaneOutline size={23} /></a>
+                <button      
+                    onClick={Active}
+                ><IoHeartOutline className={color} size={23} /></button>
+                <button><IoChatbubbleOutline size={23} /></button>
+                <button><IoPaperPlaneOutline size={23} /></button>
             </div>
+
 
             <div className={Styles.footer}>
                 <h5>
+                    <div className={Styles.totalLikes}>
+                        <h6>{props.likes} likes</h6>
+                    </div>
                     {props.name}
                     <p>Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt
@@ -41,10 +58,16 @@ function Public(props) {
                 </h5>
             </div>
 
+            <div className={Styles.hour}>
+                <p>{props.minutes} minutes ago</p>
+            </div>
+
             <div className={Styles.comments}>
                 <a href="/"><IoHappyOutline size={23} /></a>
                 <input type="text" placeholder='Add a comment...' />
+                <p>Post</p>
             </div>
+
         </div>
     )
 }
